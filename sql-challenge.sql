@@ -1,0 +1,6 @@
+-- -- SQL Challenge: Format phone numbers into two styles
+-- SELECT
+--   id,
+--   CONCAT('(', SUBSTRING(phone, 1, 3), ') ', SUBSTRING(phone, 4, 3), ' ', SUBSTRING(phone, 7, 4)) AS formatted_parentheses,
+--   CONCAT(SUBSTRING(phone, 1, 3), '-', SUBSTRING(phone, 4, 3), '-', SUBSTRING(phone, 7, 4)) AS formatted_dashes
+-- FROM contacts;
