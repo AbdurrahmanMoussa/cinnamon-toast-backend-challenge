@@ -4,7 +4,7 @@ WITH seed_contacts AS (
   SELECT 2,       '4165551234'            UNION ALL
   SELECT 3,       '9876543210' UNION ALL
   SELECT 4,       '999876543210' UNION ALL
-  SELECT 5,       '876543210' UNION ALL
+  SELECT 5,       '876543210' 
 ), -- Check for null values and format phone numbers in two formats
     format_digits AS(
     SELECT
